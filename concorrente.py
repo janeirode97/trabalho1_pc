@@ -56,7 +56,7 @@ def Estatisticas(dicionario):
 	return estatisticas
 
 
-resultado_concorrente = Testar_Concorrente([2, 4, 8])
+resultado_concorrente = Testar_Concorrente([2, 4, 8, 16, 32, 64, 128, 256, 512])
 estatistica_concorrente = Estatisticas(resultado_concorrente)
 print(estatistica_concorrente)
 

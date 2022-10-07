@@ -42,7 +42,7 @@ def Estatisticas(dicionario):
 		estatisticas[chave]["desvio_padrao"] = statistics.stdev(dicionario[chave])
 	return estatisticas
 
-resultado_sequencial = Testar_Sequencial([2, 4, 8])
+resultado_sequencial = Testar_Sequencial([2, 4, 8, 16, 32, 64, 128, 256, 512])
 estatistica_sequencial = Estatisticas(resultado_sequencial)
 print(estatistica_sequencial)
 
